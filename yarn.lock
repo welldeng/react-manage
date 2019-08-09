@@ -1299,10 +1299,10 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
-"@types/history@^3":
-  version "3.2.3"
-  resolved "https://registry.npm.taobao.org/@types/history/download/@types/history-3.2.3.tgz#2416fee5cac641da2d05a905de5af5cb50162f60"
-  integrity sha1-JBb+5crGQdotBakF3lr1y1AWL2A=
+"@types/history@*":
+  version "4.7.2"
+  resolved "https://registry.npm.taobao.org/@types/history/download/@types/history-4.7.2.tgz#0e670ea254d559241b6eeb3894f8754991e73220"
+  integrity sha1-DmcOolTVWSQbbus4lPh1SZHnMiA=
 
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.1"
@@ -1358,12 +1358,21 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-router@3.0.5":
-  version "3.0.5"
-  resolved "https://registry.npm.taobao.org/@types/react-router/download/@types/react-router-3.0.5.tgz#ef5eea33f067d877586d06c464a5f864860be09d"
-  integrity sha1-717qM/Bn2HdYbQbEZKX4ZIYL4J0=
+"@types/react-router-dom@^4.3.4":
+  version "4.3.4"
+  resolved "https://registry.npm.taobao.org/@types/react-router-dom/download/@types/react-router-dom-4.3.4.tgz#63a7a8558129d2f4ff76e4bdd099bf4b98e25a0d"
+  integrity sha1-Y6eoVYEp0vT/duS90Jm/S5jiWg0=
   dependencies:
-    "@types/history" "^3"
+    "@types/history" "*"
+    "@types/react" "*"
+    "@types/react-router" "*"
+
+"@types/react-router@*", "@types/react-router@^5.0.3":
+  version "5.0.3"
+  resolved "https://registry.npm.taobao.org/@types/react-router/download/@types/react-router-5.0.3.tgz#855a1606e62de3f4d69ea34fb3c0e50e98e964d5"
+  integrity sha1-hVoWBuYt4/TWnqNPs8DlDpjpZNU=
+  dependencies:
+    "@types/history" "*"
     "@types/react" "*"
 
 "@types/react-slick@^0.23.4":
