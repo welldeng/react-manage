@@ -4,7 +4,7 @@ import {menuItem} from './types/sidebar'
 
 const {SubMenu} = Menu;
 
-const menuList: [menuItem] = [
+const menuList: menuItem[] = [
     {
         name: '一级菜单',
         path: '/',
