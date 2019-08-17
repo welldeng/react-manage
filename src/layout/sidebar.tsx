@@ -1,19 +1,26 @@
 import React from 'react';
 import {Menu, Icon} from 'antd';
-import {menuItem} from './types/sidebar'
+import {menuItem} from 'types/sidebar'
 
 const {SubMenu} = Menu;
 
 const menuList: menuItem[] = [
     {
-        name: '一级菜单',
+        name: '子系统1',
         path: '/',
         key: '1',
         children: [{
             name: '一级菜单',
             path: '/',
             key: '1',
-            children: []
+            children: [
+                {
+                    name: '一级菜单',
+                    path: '/',
+                    key: '1',
+                    children: []
+                }
+            ]
         }]
     }
 ]
